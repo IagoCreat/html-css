@@ -1,0 +1,41 @@
+#cake {
+    display: block;
+    position: relative;
+    margin: -1em auto 0 auto;
+}
+.coudle{
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 50%;
+    margin-left: -2.4px;
+    margin-top: -8.3333333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    -webkit-animation: in 500ms 6s ease-out forwards;
+        animation: in 500ms 6s ease-out forwards;
+
+}
+.coudle::after{
+    top: 25%;
+    left: 0;
+}
+.condle::before{
+    top: 45%;
+    left: 0;
+
+}
+.fire{
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -2.6px;
+    width: 6.6666667px;
+    height: 18px;
+    
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupin tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(129, 131, 133);
+            margin:0px;
+
+        }
+        header{
+            background-color: rgb(128, 109, 109);
+            padding: 10px;
+            margin: 10px;
+             box-shadow: 1px 1px 1px black;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 15px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 4px 20px 0px #0000003b;
+        }
+        article{
+            background-color: lightblue;
+        }
+        article > aside {
+            background-color: aqua;
+        }
+     
+        footer{
+            background-color: black;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        nav{
+            background-color: rgba(119, 136, 153, 0.216);
+            box-shadow: 2px 7px 20px 0px #00000099;
+            width: 300px;
+            border-radius: 15px;
+           
+        }
+        nav > a {
+            color: white;
+            box-shadow: 2px 7px 20px 0px #0000003d;
+            text-decoration: none;
+        }
+        nav > button> a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+                
+
+        }
+        nav > button> a:hover {
+        text-decoration: underline;
+
+        }
+       button{
+        background-color: rgba(119, 136, 153, 0.216);
+        font-family: 'arial';
+        height: 27px;
+        border-radius: 12px;
+        border-color:rgba(119, 136, 153, 0.216);
+      
+       }
+      
+    </style>
+</head>
+<body data-sidebar="expanded"class=production>
+   <header>
+    <h1>Titulo Do Site</h1>
+
+    <nav>
+        
+        <button><a href="">Inicio</a>
+        <button><a href="index.html" rel="next">Hoteis</a>
+        <button><a href="">Reservas</a>
+        <button><a href="">Login</a>
+        <button><a href="">Sair</a>
+       
+    </nav>
+   </header>
+   <main>
+    <section id="assunto">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, modi. Error, rerum laboriosam esse quos ullam ratione, molestiae excepturi eligendi temporibus voluptates possimus odio quae fugit id, quisquam unde eos?
+    </section>
+    <p>Esportes Politica Tecnologia</p>
+    <section id="noticias">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at omnis excepturi natus architecto. Atque deserunt excepturi tempore, iste distinctio vero eum, voluptatem amet odio optio quae, officiis qui nihil?
+    </section>
+    <article>
+            <h2>notica sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolores eaque quam id, nulla pariatur error placeat, nesciunt corporis perferendis rem consequuntur cupiditate ipsam officia alias aspernatur ullam. Vero, asperiores.</p>
+        <aside>
+            <p>Arigo escrito por jose</p>
+        </aside>
+    </article>
+    <article>
+
+    </article>
+
+   </main>
+   <footer>
+    <p>desinvolvido por iago cardoso</p>
+   </footer>
+
+
+</body>
+</html>
