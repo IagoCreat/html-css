@@ -1,4 +1,4 @@
-@charset "utf-*" ;
+@charset "utf-8" ;
 body{
    background-color:#84e0ac;
    margin: 0px;
@@ -108,4 +108,5 @@ dl{
    }
    article>p {
       padding-left: 10px;
+      text-indent: 40px;
    }
